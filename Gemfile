@@ -36,7 +36,7 @@ gem 'spree', '2.3.2'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
 gem 'alchemy_cms', github: 'magiclabs/alchemy_cms', branch: 'master'
-gem 'alchemy_spree', branch: 'master', path: '../alchemy_spree' #github: 'magiclabs/alchemy_spree'
+gem 'alchemy_spree', branch: 'master', github: 'lethjakman/alchemy_spree', branch: :current_user#github: 'magiclabs/alchemy_spree'
 
 gem 'rb-readline'
 gem 'pry'
