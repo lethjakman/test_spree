@@ -32,6 +32,9 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
 
+# specified sprockets to prevent favicon error
+gem 'sprockets-rails', '= 2.1.3'
+
 gem 'spree', '2.3.2'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
